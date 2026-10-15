@@ -98,3 +98,4 @@ Available motion styles:
 ## 📜 License
 
 MIT License. Crafted for world-class creators and developers.
+# video-editor
