@@ -41,13 +41,6 @@ export const CinematicShort: React.FC = () => {
       }}
     >
       {/* Main Scene Series */}
-      <Series>
-        {scenes.map((sc) => (
-          <Series.Sequence key={sc.id} durationInFrames={sc.durationInFrames}>
-            <Scene scene={sc} />
-          </Series.Sequence>
-        ))}
-      </Series>
 
       {/* Top Sleek Minimalist Progress Bar */}
       <div
