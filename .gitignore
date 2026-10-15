@@ -1,8 +1,21 @@
-node_modules
-dist
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build outputs & temporary caches
+dist/
+build/
+.remotion/
+out/
+output/
+*.mp4
+*.mkv
+*.mov
+*.wav
+*.mp3
+
+# Environment & OS files
 .DS_Store
 .env
-
-# Ignore the output video from Git but not videos you import into src/.
-out
-whisper.cpp
+.env.local
+whisper.cpp/
